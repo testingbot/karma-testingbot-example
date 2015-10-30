@@ -1,0 +1,24 @@
+{
+  "name": "karma-testingbot-example",
+  "version": "0.0.1",
+  "description": "An example of using the Karma test runner with TestingBot's browser cloud to run JavaScript unit tests",
+  "main": "karma.conf-testingbot.js",
+  "scripts": {
+    "test": "karma start karma.conf-testingbot.js"
+  },
+  "homepage": "https://github.com/testingbot/karma-testingbot-example",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/testingbot/karma-testingbot-example.git"
+  },
+  "author": "TestingBot",
+  "license": "Apache V2",
+  "devDependencies": {
+    "karma": "^0.12.0",
+    "karma-testingbot-launcher": "",
+    "karma-jasmine": "^0.2.2",
+    "karma-chrome-launcher": "^0.1.2",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-safari-launcher": "^0.1.1"
+  }
+}
