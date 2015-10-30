@@ -28,4 +28,7 @@ This example will run [jasmine](http://jasmine.github.io/2.0/introduction.html) 
 
 To use Karma with TestingBot, make sure you have the 2 environment variables TESTINGBOT_KEY and TESTINGBOT_SECRET set. To obtain a key and secret, sign up for free [here](https://testingbot.com)).
 
-Once this is set up, you can run these same tests on TestingBot with `karma start karma.conf-ci.js`. This will start a TestingBot tunnel automatically and run the tests on the TestingBot browser grid. Once the test completes, you'll see the test in the TestingBot member area.
+Once this is set up, you can run these same tests on TestingBot with:
+`karma start karma.conf-testingbot.js`
+
+This will start a TestingBot tunnel automatically and run the tests on the TestingBot browser grid. Once the test completes, you'll see the test in the TestingBot member area.
