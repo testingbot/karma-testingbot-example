@@ -20,7 +20,11 @@ npm install -g karma-cli && npm install
 
 ## Running Karma on your machine
 
-You can now run Karma on your local machine, to do this, run the `karma start` command.
+You can now run Karma on your local machine, to do this, run this command:
+
+```bash
+karma start
+```
 
 This example will run [jasmine](http://jasmine.github.io/2.0/introduction.html) tests in Chrome and Firefox on your machine. To add more browsers, check the `karma.conf.js`'s `browsers` array.
 
@@ -31,7 +35,7 @@ To use Karma with TestingBot, make sure you have the 2 environment variables TES
 Once this is set up, you can run these same tests on TestingBot with:
 
 ```bash
-karma start karma.conf-testingbot.js`
+karma start karma.conf-testingbot.js
 ```
 
 This will start a TestingBot tunnel automatically and run the tests on the TestingBot browser grid. Once the test completes, you'll see the test in the TestingBot member area.
