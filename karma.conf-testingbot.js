@@ -40,7 +40,7 @@ module.exports = function(config) {
 
 
     // web server port
-    port: 9876,
+    port: 4040,
 
     colors: true,
 
@@ -48,8 +48,15 @@ module.exports = function(config) {
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
     logLevel: config.LOG_INFO,
 
-    testingBot: {
-      name: 'Karma and TestingBot demo'
+    testingbot: {
+      testName: 'Karma and TestingBot demo',
+      recordScreenshots: false,
+      connectOptions: {
+        verbose: true,
+        'se-port': 4445,
+        logfile: 'testingbot_tunnel.log'
+      },
+      public: 'public'
     },
     captureTimeout: 120000,
     customLaunchers: customLaunchers,
