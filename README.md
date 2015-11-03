@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/testingbot/karma-testingbot-example.svg?branch=master)](https://travis-ci.org/testingbot/karma-testingbot-example)
+
 # karma-testingbot-example
 
 > An example of using the [Karma](http://karma-runner.github.io/) test runner with [TestingBot](https://testingbot.com)' browser cloud to run JavaScript unit tests.
